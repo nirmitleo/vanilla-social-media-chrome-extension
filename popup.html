@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <title>Nirmit's social media extension</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <style>
+        html,
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            margin: 0px;
+            min-height: 100px;
+            padding: 0px;
+            width: 384px;
+            background-color: #222A30;
+            color: #D3204F;
+            /* color: green; */
+            /* border: solid red 1  px;   */
+        }
+
+
+        .modal-header {
+            align-items: center;
+        }
+
+        .logo {
+            margin: 0px;
+        }
+
+        .logo-icon {
+            width: 50px;
+            vertical-align: middle;
+        }
+
+        .modal-icons {
+            position: relative;
+            top: 0px;
+        }
+
+        .flex-container {
+            display: flex;
+            /* border: solid black 1px; */
+        }
+
+        .flex {
+            font-size: 40px;
+            padding-left: 15px;
+        }
+
+        .fab {
+            color: #D3204F;
+        }
+        .fab:hover {
+            color: #3db4ff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="modal-header">
+        <h1 class="logo">
+            <img src="images/logo_150.png" class="logo-icon">
+            Social Media
+        </h1>
+    </div>
+    <div class="modal-icons">
+        <div class="flex-container">
+            <div class="flex">
+                <a href="https://www.quora.com/" target="_blank">
+                    <i class="fab fa-quora"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.youtube.com/" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://twitter.com/" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://mail.google.com/mail/u/0/" target="_blank">
+                    <i class="fab fa-google"></i>
+                </a>
+            </div>
+            <div class="flex">
+                <a href="https://www.linkedin.com/feed/" target="_blank">
+                    <i></i>
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
